@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './Style.css';
 import Banner from './Modules/Banner.js';
 import Meny from './Modules/Meny.js';

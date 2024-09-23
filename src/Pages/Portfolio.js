@@ -1,4 +1,3 @@
-import Imgix from "react-imgix";
 import '../Style.css'
 
 
@@ -14,22 +13,6 @@ import j from "../Pictures/DSCF5689.jpg";
 import ab from "../Pictures/DSCF5814.jpg";
 
 function Portfolio() {
-
-const images = [
-	a,
-	b,
-	c,
-	d,
-	f,
-	g,
-	h,
-	i,
-	j
-]
- 
-const buildURL = (imagePath) =>
-  `https://picsum.photos`
-
 
 return (
 	<div className="" id="images-wrapper">
@@ -56,6 +39,5 @@ return (
 	</div>
 );
 }
-
 
 export default Portfolio;
